@@ -1,0 +1,1 @@
+{"publisher": "Huy Ho\u00e0ng", "isbn": "8935095611959", "description": "M\u1ee5c l\u1ee5c...M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/43076_49619.jpg", "author": "Nguy\u1ec5n B\u00ednh", "name": "Th\u01a1 Nguy\u1ec5n B\u00ednh - T\u00e1i b\u1ea3n 2012"}

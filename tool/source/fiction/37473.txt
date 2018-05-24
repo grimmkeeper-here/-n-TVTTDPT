@@ -1,0 +1,1 @@
+{"publisher": "Youbook", "isbn": "8935201510367", "description": "\u00a0", "img": "https://www.vinabook.com/images/thumbnails/product/240x/30949_37473.jpg", "author": "Ho\u00e0ng \u01afng", "name": "Th\u1ea9m Th\u0103ng Y Truy\u1ec1n K\u1ef3 H\u1ec7 Li\u1ec7t - Phong L\u00f4i D\u1eabn"}

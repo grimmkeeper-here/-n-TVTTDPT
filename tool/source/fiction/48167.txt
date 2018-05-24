@@ -1,0 +1,1 @@
+{"publisher": "Nh\u00e3 Nam", "isbn": "8936024917616", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/41624_48167.jpg", "author": "Truman Capote", "name": "M\u00e1u L\u1ea1nh"}

@@ -1,0 +1,1 @@
+{"publisher": "PandaBooks", "isbn": "8935077028324", "description": "", "img": "https://www.vinabook.com/images/thumbnails/product/240x/151136_p58715mbt.jpg", "author": "Ph\u00f9 Th\u1ee7y D\u01b0\u1edbi \u0110\u00e1y Bi\u1ec3n", "name": "S\u1ed1ng Chung V\u1edbi M\u1eb9 Ch\u1ed3ng"}

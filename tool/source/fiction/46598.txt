@@ -1,0 +1,1 @@
+{"publisher": "NXB Kim \u0110\u1ed3ng", "isbn": "8935036645432", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/40055_46598.jpg", "author": "Iuri Caclovit Olese", "name": "Ba T\u00ean B\u00e9o \u1eca"}

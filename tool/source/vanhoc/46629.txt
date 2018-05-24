@@ -1,0 +1,1 @@
+{"publisher": "BachvietBooks", "isbn": "8936041682368", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/40086_46629.jpg", "author": "\u0110\u1ed7 B\u00edch Th\u00fay", "name": "M\u00e8o \u0110en"}

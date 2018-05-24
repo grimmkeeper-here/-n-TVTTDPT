@@ -1,0 +1,1 @@
+{"publisher": "Huy Ho\u00e0ng", "isbn": "8935095611980", "description": "M\u1ee5c l\u1ee5c...M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/43083_49626.jpg", "author": "Xu\u00e2n Qu\u1ef3nh", "name": "Th\u01a1 Xu\u00e2n Qu\u1ef3nh"}

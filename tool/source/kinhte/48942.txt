@@ -1,0 +1,1 @@
+{"publisher": "V\u0103n Lang", "isbn": "8935073080807", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/42399_48942.jpg", "author": "Ph\u1ea1m Phi Ho\u00e0nh", "name": "5 B\u00e0i H\u1ecdc C\u0103n B\u1ea3n \u0110\u1ec3 Th\u00e0nh Tri\u1ec7u Ph\u00fa"}

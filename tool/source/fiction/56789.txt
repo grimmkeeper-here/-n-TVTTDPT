@@ -1,0 +1,1 @@
+{"publisher": "BachvietBooks", "isbn": "8936041683846", "description": "Sau Nh\u01b0\u0303ng Ca\u0301nh C\u01b0\u0309a \u0110o\u0301ng Ki\u0301n\r\n                ", "img": "https://www.vinabook.com/images/thumbnails/product/240x/134624_xx785.jpg", "author": "Shannon McKenna", "name": "Sau Nh\u01b0\u0303ng Ca\u0301nh C\u01b0\u0309a \u0110o\u0301ng Ki\u0301n"}
