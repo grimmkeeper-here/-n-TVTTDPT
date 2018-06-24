@@ -47,14 +47,7 @@ class tool(scrapy.Spider):
         for i in range(1,160):
             url = vinabook_phattrienbanthan+str(i)
             yield self.request(url,self.parse_list_vinabook,'phattrienbanthan')
-        #vinabook_fiction
-        vinabook_fiction = "https://www.vinabook.com/c354/sach-van-hoc-nuoc-ngoai/page-"
-        for i in range(1,300):
-            url = vinabook_fiction+str(i)
-            yield self.request(url,self.parse_list_vinabook,'fiction')    
         
-
-
     #Parse Vinabook
     def parse_list_vinabook(self,response):
         list_item=response.xpath('//a[@class="image-border"]/@href')
@@ -83,7 +76,7 @@ class tool(scrapy.Spider):
         check = False
         for root, dirs, files in os.walk(uri):
             for file in files:
-                file = file.replace(".txt","")
+                file = file.replace(".json","")
                 if file == url_id:
                     check = True
                     break
@@ -95,7 +88,7 @@ class tool(scrapy.Spider):
             for description in list_description:
                 temp = self.cleanHTML(description.strip())
                 if temp is not '' or temp != u'Mời bạn đón đọc.' or temp != u'mời bạn đón đọc.':
-                    book_description = book_description + temp
+                    book_description = book_description + ' '+temp
             book_name = response.xpath('//*[@itemprop="name"]/text()').extract()[0].strip()
             info=response.xpath('//*[@class="product-feature"]/ul/li')
             book_img=""
@@ -127,10 +120,10 @@ class tool(scrapy.Spider):
                                     'isbn': book_ISBN,
                                     'author': book_author,
                                     'publisher': book_publisher,
-                                    'description': book_description
+                                    'description': book_description,
+                                    'class':folder_name
                                     }
-                        with open(uri+'/'+url_id+'.txt', 'w') as outfile:  
-                            json.dump(book_temp,outfile)
+                        json.dump(book_temp,open(uri+'/'+url_id+'.json', "wb"))
     ####################
     def cleanHTML(self,raw_html):
         cleanr = re.compile('<.*?>')

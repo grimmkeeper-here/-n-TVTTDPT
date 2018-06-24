@@ -1,1 +1,0 @@
-{"publisher": "Nh\u00e3 Nam", "isbn": "8936024917883", "description": "- D\u01b0\u01a1ng Trung Qu\u1ed1cM\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/41903_48446.jpg", "author": "D\u01b0\u01a1ng Trung Qu\u1ed1c", "name": "Th\u1eddi Gian Nh\u01b0 Th\u1ee9 Thu\u1ed1c Hi\u1ec7n H\u00ecnh"}

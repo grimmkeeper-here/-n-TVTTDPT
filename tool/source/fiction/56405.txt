@@ -1,1 +1,0 @@
-{"publisher": "V\u0103n Vi\u1ec7t", "isbn": "8936062802141", "description": "", "img": "https://www.vinabook.com/images/thumbnails/product/240x/132672_a754.jpg", "author": "L\u1ee5c Xu", "name": "\u0110\u01b0\u0300ng No\u0301i V\u01a1\u0301i Anh \u00c2\u0301y T\u00f4i V\u00e2\u0303n Co\u0300n Y\u00eau"}

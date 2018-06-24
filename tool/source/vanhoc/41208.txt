@@ -1,1 +1,0 @@
-{"publisher": "Ph\u01b0\u01a1ng \u0110\u00f4ng", "isbn": "8936047860616", "description": "M\u1ee5c l\u1ee5cM\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/34665_41208.jpg", "author": "Lam Kh\u00ea - Kh\u00e1nh Minh (S\u01b0u T\u1ea7m - Bi\u00ean So\u1ea1n)", "name": "M\u00f3n Ngon H\u00e0 N\u1ed9i"}

@@ -1,1 +1,0 @@
-{"publisher": "NXB Tr\u1ebb", "isbn": "8934974099215", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc. ", "img": "https://www.vinabook.com/images/thumbnails/product/240x/35891_42434.jpg", "author": "Nguy\u1ec5n Nh\u1eadt \u00c1nh", "name": "T\u00f4i Th\u1ea5y Hoa V\u00e0ng Tr\u00ean C\u1ecf Xanh (B\u00eca C\u1ee9ng)"}

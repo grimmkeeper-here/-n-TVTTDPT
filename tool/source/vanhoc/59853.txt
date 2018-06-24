@@ -1,1 +1,0 @@
-{"publisher": "Minh Th\u1eafng", "isbn": "8935236401180", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/160253_p59853mbiatruoc.jpg", "author": "M\u1ea1nh Linh", "name": "Th\u01a1 Nguy\u1ec5n Khuy\u1ebfn"}

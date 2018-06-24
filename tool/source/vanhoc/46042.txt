@@ -1,1 +1,0 @@
-{"publisher": "Huy Ho\u00e0ng", "isbn": "8935095611058", "description": "M\u1ee5c l\u1ee5c\u00a0", "img": "https://www.vinabook.com/images/thumbnails/product/240x/39499_46042.jpg", "author": "\u0110\u1ee9c Anh", "name": "101 Truy\u1ec7n C\u01b0\u1eddi H\u1ecdc Sinh, Sinh Vi\u00ean"}

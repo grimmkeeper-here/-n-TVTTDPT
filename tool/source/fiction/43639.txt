@@ -1,1 +1,0 @@
-{"publisher": "Th\u0103ng Long", "isbn": "8935075922457", "description": "M\u1ee5c L\u1ee5c...M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/37096_43639.jpg", "author": "Thanh B\u00ecnh", "name": "Anh Em Trong H\u00e0nh Tr\u00ecnh C\u1ee7a B\u1ea1n"}

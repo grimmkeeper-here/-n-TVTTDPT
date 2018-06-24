@@ -1,1 +1,0 @@
-{"publisher": "TTTV H\u00e0 N\u1ed9i", "isbn": "8935077250329", "description": "T\u00e1c ph\u1ea9m\u00a0\u00a0\u00a0", "img": "https://www.vinabook.com/images/thumbnails/product/240x/38265_44808.jpg", "author": "\u0110\u00e0o Duy Anh", "name": "Nh\u1eadt K\u00fd Trong T\u00f9 - T\u00e1c Ph\u1ea9m V\u00e0 L\u1eddi B\u00ecnh - T\u00e1i b\u1ea3n 07/11/2011"}

@@ -1,1 +1,0 @@
-{"publisher": "NXB Tr\u1ebb", "isbn": "8934974107255", "description": "M\u1ee5c l\u1ee5cM\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/40145_46688.jpg", "author": "V\u0103n Th\u00e0nh L\u00ea", "name": "\u00d4ng M\u1eb7t Tr\u1eddi V\u00e0 M\u00f9i H\u01b0\u01a1ng C\u1ee7a M\u1eb9"}

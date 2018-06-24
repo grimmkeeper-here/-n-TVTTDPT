@@ -1,1 +1,0 @@
-{"publisher": "Youbook", "isbn": "8935201510701", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/37897_44440.jpg", "author": "Minh Hi\u1ec3u Kh\u00ea", "name": "M\u1eb7t Tr\u1eddi R\u1ef1c R\u1ee1 Nh\u1ea5t Ng\u00e0y \u0110\u00f4ng - T\u1eadp 2 - T\u00e1i b\u1ea3n 06/11/2011"}

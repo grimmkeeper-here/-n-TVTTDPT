@@ -1,1 +1,0 @@
-{"publisher": "NXB Tri th\u1ee9c", "isbn": "8936039720881", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc ", "img": "https://www.vinabook.com/images/thumbnails/product/240x/32845_39386.jpg", "author": "Ph\u00f9ng V\u0103n T\u1eedu", "name": "Ti\u1ec3u Thuy\u1ebft Tr\u00ean \u0110\u01b0\u1eddng \u0110\u1ed5i M\u1edbi Ngh\u1ec7 Thu\u1eadt"}

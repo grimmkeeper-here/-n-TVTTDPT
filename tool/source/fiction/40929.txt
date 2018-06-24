@@ -1,1 +1,0 @@
-{"publisher": "Th\u0103ng Long", "isbn": "8935075921009", "description": "M\u1ee5c l\u1ee5cM\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc", "img": "https://www.vinabook.com/images/thumbnails/product/240x/34388_40929.jpg", "author": "Tr\u1ea7n H\u1ea3i Linh (S\u01b0u T\u1ea7m - Bi\u00ean So\u1ea1n)", "name": "Truy\u1ec7n \u0110\u1ed3ng Tho\u1ea1i M\u1ef9"}

@@ -1,1 +1,0 @@
-{"publisher": "Kinh T\u1ebf", "isbn": "2020030000014", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/146499_p18959mbt.jpg", "author": "TS V\u00f5 V\u0103n Nh\u1ecb", "name": "K\u1ebf To\u00e1n T\u00e0i Ch\u00ednh - L\u00fd Thuy\u1ebft V\u00e0 S\u01a1 \u0110\u1ed3"}

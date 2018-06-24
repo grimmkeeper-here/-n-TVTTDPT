@@ -1,1 +1,0 @@
-{"publisher": "Tr\u00ed Vi\u1ec7t", "isbn": "8935086836699", "description": "Tr\u1ecdn b\u1ed9 g\u1ed3m 3 cu\u1ed1n :\u00a0", "img": "https://www.vinabook.com/images/thumbnails/product/240x/186151_p64407mbo.jpg", "author": "Nhi\u1ec1u T\u00e1c Gi\u1ea3", "name": "Combo T\u01b0 Duy \u0110\u1ed9t Ph\u00e1 (B\u1ed9 3 Cu\u1ed1n)"}

@@ -1,1 +1,0 @@
-{"publisher": "V\u0103n Ch\u01b0\u01a1ng", "isbn": "8935077114904", "description": "M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/41869_48412.jpg", "author": "L\u00ea \u0110\u00ecnh Thi", "name": "G\u1eedi L\u1eddi Y\u00eau Th\u01b0\u01a1ng - Ba L\u00e0 B\u00f3ng M\u00e1t \u0110\u1eddi Con"}

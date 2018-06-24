@@ -1,1 +1,0 @@
-{"publisher": "Minh Long", "isbn": "8936046593287", "description": "M\u1ee5c l\u1ee5c:\u00a0...\u00a0M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/142900_p57934mbiatruoc.jpg", "author": "Ng\u1ecdc Anh", "name": "101 Truy\u1ec7n M\u1eb9 K\u1ec3 Con Nghe - T\u00e1i b\u1ea3n 2013"}

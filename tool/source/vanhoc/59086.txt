@@ -1,1 +1,0 @@
-{"publisher": "Huy Ho\u00e0ng", "isbn": "8935095617395", "description": "M\u1ee5c l\u1ee5c:\u00a0...M\u1eddi b\u1ea1n \u0111\u00f3n \u0111\u1ecdc.", "img": "https://www.vinabook.com/images/thumbnails/product/240x/153458_p59086mbiatruoc.jpg", "author": "Ng\u1ecdc H\u00e0", "name": "C\u1ed5 T\u00edch Vi\u1ec7t Nam (T\u1eb7ng K\u00e8m CD)"}

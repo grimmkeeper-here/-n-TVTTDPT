@@ -1,1 +1,0 @@
-{"publisher": "Th\u00e1i H\u00e0", "isbn": "8936037793993", "description": "Ky\u0301 \u01af\u0301c Vu\u0323n Mu\u0323c lu\u0323c:...M\u01a1\u0300i ba\u0323n \u0111o\u0301n \u0111o\u0323c.\u00a0", "img": "https://www.vinabook.com/images/thumbnails/product/240x/41286_47829.jpg", "author": "Nguy\u00ea\u0303n Quang L\u00e2\u0323p", "name": "Ky\u0301 \u01af\u0301c Vu\u0323n"}
