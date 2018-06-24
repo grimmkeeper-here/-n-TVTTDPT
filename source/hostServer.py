@@ -11,6 +11,7 @@ import pickle
 
 app = Flask(__name__)
 
+print "Please wait until it done!"
 vectorizer = pickle.load(open('source/vector.pickel','rb'))
 transformer = pickle.load(open('source/transformer.pickel','rb'))
 nameDoc = json.load(open('source/nameDoc.json','rb'))['data']
@@ -53,6 +54,36 @@ def searchClass():
     query.append(string)
     predicted_svm = text_clf_svm.predict(query)
     return jsonify({'class': predicted_svm[0]}), 201
+
+@app.route("/searchAll", methods=['POST'])
+def searchAll():
+    string = request.json['data']
+
+    query = []
+
+    query.append(string)
+
+    testVectorizerArray = vectorizer.transform(query).toarray()
+
+    transformer.fit(testVectorizerArray)
+
+    tfidf_query = transformer.transform(testVectorizerArray)
+
+    cosine_similarities = linear_kernel(tfidf_query, tfidf).flatten()
+
+    related_docs_indices = cosine_similarities.argsort()[:-100:-1]
+
+    predicted_svm = text_clf_svm.predict(query)
+    result = []
+    for doc in related_docs_indices:
+        namedoc = nameDoc[doc]['name']
+        category = nameDoc[doc]['class']
+        direct = 'tool/source/'+category+"/"+namedoc
+        f = open(direct,"rb")
+        object_ = json.load(f)
+        result.append(object_)
+    
+    return jsonify({'class': predicted_svm[0],'result':result}), 201
 
 if __name__ == '__main__':
     app.run(debug=True)
