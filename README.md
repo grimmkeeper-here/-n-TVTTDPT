@@ -20,11 +20,11 @@
         4. Cài đặt Pandas: pip install pandas (https://pandas.pydata.org/)
 
 # Khởi động
-Mọi chức năng cần thiết đều có trong file "start.bat"
-    1. Start Crawler _ crawl các sách thể loại văn học, kinh tế, phát triển bản thân đang bán trên vinabook.com
-    2. Create Source _ tạo ra các file khởi tạo trong thư mục source
-    3. Start Server _ khởi động server để các API hoạt động
-    4. Enter Site _ truy cập vào trang giao diện
+    Mọi chức năng cần thiết đều có trong file "start.bat"
+        1. Start Crawler _ crawl các sách thể loại văn học, kinh tế, phát triển bản thân đang bán trên vinabook.com
+        2. Create Source _ tạo ra các file khởi tạo trong thư mục source
+        3. Start Server _ khởi động server để các API hoạt động
+        4. Enter Site _ truy cập vào trang giao diện
 
 # Các lỗi có thể xảy ra và cách khắc phục khi crawl
     1. No module named scrapy_proxies _ thiếu thư viện Scrapy Proxies _ pip install scrapy_proxies
