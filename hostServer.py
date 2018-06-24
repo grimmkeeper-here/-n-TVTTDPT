@@ -11,23 +11,19 @@ import pickle
 
 app = Flask(__name__)
 
+vectorizer = pickle.load(open('source/vector.pickel','rb'))
+transformer = pickle.load(open('source/transformer.pickel','rb'))
+nameDoc = json.load(open('source/nameDoc.json','rb'))['data']
+tfidf = pickle.load(open('source/tfidf.pickel','rb')).toarray()
+text_clf_svm = pickle.load(open('source/pipeline.pickel','rb'))
+
 @app.route("/search", methods=['POST'])
 def search():
     string = request.json['data']
 
-    nameDoc = json.load(open('source/nameDoc.json','rb'))['data']
-
-    vectorizer = pickle.load(open('source/vector.pickel','rb'))
-
-    tfidf = pickle.load(open('source/tfidf.pickel','rb')).toarray()
-
-    transformer = pickle.load(open('source/transformer.pickel','rb'))
-
     query = []
 
     query.append(string)
-
-    text_clf_svm = pickle.load(open('source/pipeline.pickel','rb'))
 
     testVectorizerArray = vectorizer.transform(query).toarray()
 
@@ -48,10 +44,15 @@ def search():
         object_ = json.load(f)
         result.append(object_)
     
+    return jsonify({'result':result}), 201
+
+@app.route("/searchClass", methods=['POST'])
+def searchClass():
+    string = request.json['data']
+    query = []
+    query.append(string)
     predicted_svm = text_clf_svm.predict(query)
-
-    return jsonify({'class': predicted_svm[0],'result':result}), 201
-
+    return jsonify({'class': predicted_svm[0]}), 201
 
 if __name__ == '__main__':
     app.run(debug=True)
