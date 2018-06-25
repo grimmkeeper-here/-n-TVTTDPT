@@ -5,10 +5,12 @@
     1. Python 2.7
     2. Html + Css
 
+# FrameWork sử dụng:
+    1.Scrapy
+
 # Thư viện sử dụng
-    1. Scrapy
-    2. Scikit Learn(SKlearn)
-    3. Pandas
+    1. Scikit Learn(SKlearn)
+    2. Pandas
 
 # Cài đặt
     A. Cài đặt python: https://www.python.org/
@@ -23,7 +25,7 @@
     Mọi chức năng cần thiết đều có trong file "start.bat"
         1. Start Crawler _ crawl các sách thể loại văn học, kinh tế, phát triển bản thân đang bán trên vinabook.com
         2. Create Source _ tạo ra các file khởi tạo trong thư mục source
-        3. Start Server _ khởi động server để các API hoạt động
+        3. Start Server _ khởi động server để các API hoạt động(Tất cả dữ liệu demo đều được lưu trước nên chỉ cần khởi động 3,4 để demo)
         4. Enter Site _ truy cập vào trang giao diện
 
 # Các lỗi có thể xảy ra và cách khắc phục khi crawl
