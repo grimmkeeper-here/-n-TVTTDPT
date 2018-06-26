@@ -34,7 +34,8 @@ def search():
 
     cosine_similarities = linear_kernel(tfidf_query, tfidf).flatten()
 
-    related_docs_indices = cosine_similarities.argsort()[:-100:-1]
+    related_docs_indices = cosine_similarities.argsort()[:-11:-1]
+
 
     result = []
     for doc in related_docs_indices:
@@ -44,7 +45,7 @@ def search():
         f = open(direct,"rb")
         object_ = json.load(f)
         result.append(object_)
-    
+
     return jsonify({'result':result}), 201
 
 @app.route("/searchClass", methods=['POST'])
@@ -71,7 +72,7 @@ def searchAll():
 
     cosine_similarities = linear_kernel(tfidf_query, tfidf).flatten()
 
-    related_docs_indices = cosine_similarities.argsort()[:-100:-1]
+    related_docs_indices = cosine_similarities.argsort()[:-11:-1]
 
     predicted_svm = text_clf_svm.predict(query)
     result = []
@@ -82,6 +83,43 @@ def searchAll():
         f = open(direct,"rb")
         object_ = json.load(f)
         result.append(object_)
+    
+    return jsonify({'class': predicted_svm[0],'result':result}), 201
+
+@app.route("/searchOnlyClass", methods=['POST'])
+def searchOnlyClass():
+    string = request.json['data']
+
+    query = []
+
+    query.append(string)
+
+    testVectorizerArray = vectorizer.transform(query).toarray()
+
+    transformer.fit(testVectorizerArray)
+
+    tfidf_query = transformer.transform(testVectorizerArray)
+
+    cosine_similarities = linear_kernel(tfidf_query, tfidf).flatten()
+
+    related_docs_indices = cosine_similarities.argsort()[:-200:-1]
+
+    predicted_svm = text_clf_svm.predict(query)
+    _temp = []
+    result = []
+    for doc in related_docs_indices:
+        namedoc = nameDoc[doc]['name']
+        category = nameDoc[doc]['class']
+        direct = 'tool/source/'+category+"/"+namedoc
+        f = open(direct,"rb")
+        object_ = json.load(f)
+        _temp.append(object_)
+
+    count = 0
+    while(count<10 and count<len(_temp)):
+        if _temp[count]['class'] == predicted_svm[0]:
+            result.append(_temp[count])
+        count +=1
     
     return jsonify({'class': predicted_svm[0],'result':result}), 201
 
