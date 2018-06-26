@@ -20,13 +20,14 @@
         2. Cài đặt Scrapy Proxies: pip install scrapy_proxies (https://github.com/aivarsk/scrapy-proxies)
         3. Cài đặt Scikit Learn: pip install -U scikit-learn (http://scikit-learn.org/stable/index.html)
         4. Cài đặt Pandas: pip install pandas (https://pandas.pydata.org/)
+    D. Cài đặt extension CORS Toggle cho Chrome: https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim 
 
 # Khởi động
     Mọi chức năng cần thiết đều có trong file "start.bat"
         1. Start Crawler _ crawl các sách thể loại văn học, kinh tế, phát triển bản thân đang bán trên vinabook.com
         2. Create Source _ tạo ra các file khởi tạo trong thư mục source
         3. Start Server _ khởi động server để các API hoạt động(Tất cả dữ liệu demo đều được lưu trước nên chỉ cần khởi động 3,4 để demo)
-        4. Enter Site _ truy cập vào trang giao diện
+        4. Enter Site _ truy cập vào trang giao diện(cần cài đặt extension để có thể call API _ xem phần D trong Cài đặt)
 
 # Các lỗi có thể xảy ra và cách khắc phục khi crawl
     1. No module named scrapy_proxies _ thiếu thư viện Scrapy Proxies _ pip install scrapy_proxies
