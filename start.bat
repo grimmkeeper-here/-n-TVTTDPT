@@ -12,6 +12,7 @@ set /p input="Make your choice: "
 if %input% == 1 (
     cd /d tool
     start call crawler.bat
+    cd /d ..
 )
 if %input% == 2 (
     start python createSource.py
